@@ -1,4 +1,5 @@
 notifiers:
+  # Admin UI: https://requestbin.com/r/en5t0s1c8q023/1mbWmomJ9t2vlJV2UvbLVMJgqfH
   - name: RequestBin
     type: webhook
     uid: notifier1
