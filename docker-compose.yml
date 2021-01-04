@@ -38,6 +38,9 @@ services:
     image: grafana/grafana:7.2.0
     ports:
       - 3000:3000
+    volumes:
+    # https://riamf.github.io/posts/dockerized_grafana_setup/#adding-data-source
+      - ./provisioning:/etc/grafana/provisioning
     networks:
       - grafana
 
