@@ -1,0 +1,12 @@
+notifiers:
+  - name: RequestBin
+    type: webhook
+    uid: notifier1
+    is_default: true
+    send_reminder: true
+    frequency: 1h
+    disable_resolve_message: false
+    # See `Supported Settings` section for settings supported for each
+    # alert notification type.
+    settings:
+      url: https://en5t0s1c8q023.x.pipedream.net/
