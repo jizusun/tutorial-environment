@@ -1,3 +1,10 @@
+# Why This Fork?
+
+This fork contains the `Grafana configuration as Code`, see more at
+- <https://grafana.com/docs/grafana/latest/administration/provisioning/>
+
+
+
 # Sample application for tutorials
 
 This repository contains the environment for completing the tutorials at [grafana.com/tutorials](https://grafana.com/tutorials).
